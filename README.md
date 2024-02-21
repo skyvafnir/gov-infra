@@ -21,6 +21,10 @@ Currently, the contributing institutions are:
 - [Financial Management Authority (Fjársýsla ríkisins)](https://island.is/en/o/the-financial-management-authority)
 - [National University Hospital of Iceland (Landspítali)](https://www.landspitali.is/)
 
+## Contributing
+
+Please refer to the [CONTRIBUTING](./CONTRIBUTING.md) documentation for details on how to contribute to this repository.
+
 ## Background and purpose
 
 In 2021, Iceland introduced its ["Strategic Cloud Policies"](https://island.is/en/o/digital-iceland/Cloud-Policy-Icelandic-Public-Sector) to promote the efficient use of public cloud services across the Icelandic government and public sector. These policies highlight key principles:
