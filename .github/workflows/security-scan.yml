@@ -1,0 +1,19 @@
+name: Security Scan
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+
+  checkov:
+    name: Checkov IaC scan
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run Checkov (report-only rollout; set soft_fail false to enforce)
+        uses: bridgecrewio/checkov-action@v12
+        with:
+          quiet: true
+          soft_fail: true
